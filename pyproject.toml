@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ailesionnet"
+version = "0.1.0"
+description = "Research implementation of context-uncertainty coupled multi-sequence MRI lesion segmentation"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.0,<3", "numpy>=1.24,<3", "scipy>=1.10", "nibabel>=5.1"]
+
+[tool.setuptools.packages.find]
+include = ["ailesionnet*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

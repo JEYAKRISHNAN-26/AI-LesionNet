@@ -1,0 +1,2 @@
+subject_id,mask,prediction
+subject_001,/path/to/subject_001_lesion_mask.nii.gz,/path/to/subject_001_mask.nii.gz
